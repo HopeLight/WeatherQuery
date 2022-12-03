@@ -1,6 +1,10 @@
 # 天气查询快捷指令
 
-> **冬天来了,快查查天气,以防感冒~**
+> **冬天来了,提前查询室外天气,以防感冒~**
+
+## 接口来源
+
+> 天气  | 精度维度 查询API -> [msn天气](https://www.msn.cn/zh-cn/weather/forecast/in-%E5%8C%97%E4%BA%AC%E5%B8%82?loc=eyJsIjoi5YyX5Lqs5biCIiwiYyI6IuS4reWNjuS6uuawkeWFseWSjOWbvSIsImkiOiJjbiIsInQiOjEwMiwiZyI6InpoLWNuIiwieCI6IjExNi40MDc0MTciLCJ5IjoiMzkuOTA0MTcyIn0%3D&weadegreetype=C)
 
 ## 安装地址
 
