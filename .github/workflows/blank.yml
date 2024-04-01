@@ -21,12 +21,6 @@ jobs:
     steps:
       # Runs a single command using the runners shell
     - name: Send
-      uses: fjogeleit/http-request-action@v1
-      with:
-        url: 'https://qmsg.zendee.cn/send/4149439465ff0ff0fe700a9e31cf2a67?'
-        method: 'POST'
-        username: ${{ secrets.AWX_USER }}
-        password: ${{ secrets.AWX_PASSWORD }}
-        customHeaders: '{"Content-Type": "application/x-www-form-urlencoded"}'
-        data: 'msg="What Can I say?"'
+      run: |
+       curl https://qmsg.zendee.cn/send/4149439465ff0ff0fe700a9e31cf2a67?msg=What Can I say
 
