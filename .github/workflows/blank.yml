@@ -27,6 +27,6 @@ jobs:
         method: 'POST'
         username: ${{ secrets.AWX_USER }}
         password: ${{ secrets.AWX_PASSWORD }}
-        customHeaders: '{"Content-Type": "application/json"}'
-        data: '{"msg":"What can i say"}'
+        customHeaders: '{"Content-Type": "application/x-www-form-urlencoded"}'
+        data: 'msg="What Can I say?"'
 
