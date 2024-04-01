@@ -28,9 +28,7 @@ jobs:
          headers: |
             Content-Type: application/x-www-form-urlencoded
          body: |
-            {
-              "json": "$job.services"
-            }
+            {"json":toJSON(${{job.services}})}
 
 
 
